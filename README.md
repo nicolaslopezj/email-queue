@@ -23,6 +23,8 @@ EmailQueue.send({
 
 ### Options
 
+Set this variables anywhere in server.
+
 ```js
 EmailQueue.noEmailsWaitTime = 1000; // Loop sleep time when there are no emails (default: 1000)
 EmailQueue.betweenEmailsWaitTime = 10; // Loop sleep time when there are emails (default: 10)
